@@ -11,7 +11,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 >About
                 </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <a
                     className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
                     href="#projects"
@@ -19,7 +19,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 >Projects
                 </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <a
                     className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                     href="#contact"
@@ -27,7 +27,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 >Contact Me
                 </a>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
                 <a
                     className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                     href="#resume"

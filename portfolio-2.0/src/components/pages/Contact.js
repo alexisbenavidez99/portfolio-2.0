@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-export default function Contact() {
+export default function Contact(props) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -43,21 +43,20 @@ export default function Contact() {
         <div className="contact">
             <h1 className="contact-header">Contact Me</h1>
             <div className="mb-3 w-25">
-                <label for="name" className="form-label">Name</label>
+                <label htmlFor="name" className="form-label">Name</label>
                 <input type="text"
                     className="form-control"
                     name="name"
-                    placeholder=""
                     value={name}
                     onChange={handleInputChange}
                 />
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
       Please provide your name.
     </div>
             </div>
 
-            <div class="mb-3 w-25">
-                <label for="email" className="form-label">Email address</label>
+            <div className="mb-3 w-25">
+                <label htmlFor="email" className="form-label">Email address</label>
                 <input
                     type="email"
                     className="form-control"
@@ -65,27 +64,27 @@ export default function Contact() {
                     value={email}
                     onChange={handleInputChange}
                 />
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
       Please provide a vaild email.
     </div>
             </div>
             <div className="mb-3 w-25">
-                <label for="message" className="form-label">Message</label>
+                <label htmlFor="message" className="form-label">Message</label>
                 <input
                     type="text"
                     className="form-control"
                     value={message}
-                    onClick={handleInputChange}
+                    onChange={handleInputChange}
                     style={{
                         lineHeight: '100px'
                     }}
                 />
-                <div class="invalid-feedback">
+                <div className="invalid-feedback">
       Please provide a message.
     </div>
             </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-dark" onClick={handleFormSubmit}>Submit</button>
+            <div className="col-12">
+                <button type="submit" className="btn btn-dark" onClick={handleFormSubmit}>Submit</button>
             </div>
             {errMessage && (
                 <div>

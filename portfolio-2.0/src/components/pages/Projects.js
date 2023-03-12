@@ -1,5 +1,4 @@
-import React from 'react';
-import '../../assets';  
+import React from 'react';  
 
 export default function Projects() {
     return (

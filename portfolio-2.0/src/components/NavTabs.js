@@ -12,9 +12,9 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                     <ul className="nav justify-content-end">
                         <li className="nav-item">
                             <a
-                                className={currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                                 href="#about-me"
-                                onClick={() => handlePageChange('About Me')}
+                                onClick={() => handlePageChange('About')}
                             >About Me
                             </a>
                         </li>

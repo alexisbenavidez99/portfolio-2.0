@@ -42,7 +42,6 @@ export default function Contact() {
     return (
         <div className="contact">
             <h1 className="contact-header">Contact Me</h1>
-            <form className="needs-validation" noValidate>
             <div className="mb-3 w-25">
                 <label for="name" className="form-label">Name</label>
                 <input type="text"
@@ -93,7 +92,6 @@ export default function Contact() {
                     <p className="error-text">{errMessage}</p>
                 </div>
             )}
-            </form>
         </div>
     )
 }

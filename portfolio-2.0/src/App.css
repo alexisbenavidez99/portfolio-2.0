@@ -6,6 +6,16 @@ ul {
     padding-bottom: 20px;
 }
 
+a {
+    font-family: "Raleway", sans-serif, serif;
+    text-decoration: none;
+    color: gray; 
+}
+
+a:hover {
+    color: black;
+}
+
 .nav-link {
     font-family: "Raleway", sans-serif, serif;
     color: gray;
@@ -15,8 +25,9 @@ ul {
     color: black;
 }
 
-.about {
-    margin: 50px;
+.about,
+.resume {
+    margin: 50px 80px;
 }
 
 .about-section {
@@ -33,6 +44,13 @@ ul {
     line-height: 40%;
 }
 
-.about-header {
+.resume-header {
+    font-family: "Gloock", sans-serif, serif;
+    margin-bottom: 50px;
+}
+
+.about-header,
+.tech-header, 
+.tech-names {
     font-family: "Raleway", sans-serif, serif;
 }

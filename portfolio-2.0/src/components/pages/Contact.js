@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
-export default function Contact(props) {
+export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -61,6 +61,7 @@ export default function Contact(props) {
                     type="email"
                     className="form-control"
                     placeholder="name@example.com"
+                    name="email"
                     value={email}
                     onChange={handleInputChange}
                 />
@@ -75,8 +76,9 @@ export default function Contact(props) {
                     className="form-control"
                     value={message}
                     onChange={handleInputChange}
+                    name="message"
                     style={{
-                        lineHeight: '100px'
+                        lineHeight: '50px'
                     }}
                 />
                 <div className="invalid-feedback">

@@ -12,6 +12,13 @@ a {
     color: gray; 
 }
 
+footer a {
+    font-family: "Gloock", sans-serif, serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
 a:hover {
     color: black;
 }
@@ -100,3 +107,4 @@ label,
 .work-container img:hover {
     filter: brightness(100%);
 }
+

@@ -16,6 +16,11 @@ footer a {
     font-family: "Gloock", sans-serif, serif;
     font-weight: bolder;
     font-size: 20px;
+    color: gray;
+}
+
+footer a:hover {
+    color: black;
 }
 
 

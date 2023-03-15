@@ -51,6 +51,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Preview
-
+![Screenshot](./portfolio-2.0/src/assets/about.png)
+![Screenshot](./portfolio-2.0/src/assets/projects.png)
+![Screenshot](./portfolio-2.0/src/assets/contact.png)
+![Screenshot](./portfolio-2.0/src/assets/resume.png)
 ## License
 See in repo

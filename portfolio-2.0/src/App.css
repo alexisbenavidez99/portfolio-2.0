@@ -108,3 +108,20 @@ label,
     filter: brightness(100%);
 }
 
+.work-container p {
+    font-family: "Raleway", sans-serif, serif;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0%;
+    line-height: 2px;
+}
+
+.work-container p a {
+    color: white;
+}
+
+.work-container p a:hover {
+    color: black;
+}
+

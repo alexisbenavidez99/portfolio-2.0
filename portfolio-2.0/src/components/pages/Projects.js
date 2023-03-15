@@ -16,7 +16,7 @@ export default function Projects() {
         </div>
 
         <div className="work-container">
-            <a href="https://joonkidk.github.io/coinspire/" target="_blank" rel="noreferrer">
+            <a href="https://devkjoon.github.io/coinspire/" target="_blank" rel="noreferrer">
                 <img src={coinspire} alt="Coinspire"/>
             </a>
             <h3>Coinspire</h3>

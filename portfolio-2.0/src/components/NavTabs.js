@@ -3,7 +3,7 @@ import React from 'react';
 export default function NavTabs({ currentPage, handlePageChange }) {
     return (
         <div>
-            <nav className="navbar bg-body">
+            <nav className="navbar bg-black">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#about-me">
                         <p className="name-icon">Alexis</p>

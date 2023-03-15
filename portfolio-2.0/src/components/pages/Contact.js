@@ -86,7 +86,7 @@ export default function Contact() {
     </div>
             </div>
             <div className="col-12">
-                <button type="submit" className="btn btn-dark" onClick={handleFormSubmit}>Submit</button>
+                <button type="submit" className="btn btn-light" onClick={handleFormSubmit}>Submit</button>
             </div>
             {errMessage && (
                 <div>

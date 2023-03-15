@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-2.0/static/css/main.4ff0b5c3.css",
+    "main.js": "/portfolio-2.0/static/js/main.bba80ee2.js",
+    "static/media/longevity.png": "/portfolio-2.0/static/media/longevity.5bc4d1564d54c285061c.png",
+    "static/media/weather-app.png": "/portfolio-2.0/static/media/weather-app.9bef0660faf604f8d58a.png",
+    "static/media/coinspire.png": "/portfolio-2.0/static/media/coinspire.09ead5154ebe0b96d442.png",
+    "static/media/code-quiz.png": "/portfolio-2.0/static/media/code-quiz.b8046516f4721aac475d.png",
+    "index.html": "/portfolio-2.0/index.html",
+    "main.4ff0b5c3.css.map": "/portfolio-2.0/static/css/main.4ff0b5c3.css.map",
+    "main.bba80ee2.js.map": "/portfolio-2.0/static/js/main.bba80ee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ff0b5c3.css",
+    "static/js/main.bba80ee2.js"
+  ]
+}

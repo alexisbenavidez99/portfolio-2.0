@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from '../../assets/profilepic.jpg';
 
 export default function About() {
     return (
@@ -10,6 +11,7 @@ export default function About() {
                 I am always eager to learn different things and expand my knowledge anyway I can! My portfolio showcases different projects I've made and collaborated on.
                 Take a look around!
             </p>
+            <img className="profile-pic" src={profilePic} alt="alexis"></img>
         </div>
     )
 }

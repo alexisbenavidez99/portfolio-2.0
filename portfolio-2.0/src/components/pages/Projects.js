@@ -2,7 +2,7 @@ import React from 'react';
 import longevity from '../../assets/longevity.png';
 import coinspire from '../../assets/coinspire.png';
 import weather from '../../assets/weather-app.png';
-import quiz from '../../assets/code-quiz.png';
+import bookHaven from '../../assets/bookhaven.png';
 
 export default function Projects() {
     return (
@@ -32,11 +32,11 @@ export default function Projects() {
         </div>
         
         <div className="work-container">
-            <a href="https://alexisbenavidez99.github.io/Code-Quiz-4/" target="_blank" rel="noreferrer">
-                <img src={quiz} alt="Code Quiz"/>
+            <a href="https://book-haven.herokuapp.com/" target="_blank" rel="noreferrer">
+                <img src={bookHaven} alt="Book Haven"/>
             </a>
-            <h3>Code Quiz</h3>
-            <p><a href="https://github.com/alexisbenavidez99/Code-Quiz-4">GH</a></p>
+            <h3>Book Haven</h3>
+            <p><a href="https://github.com/Nmotley92/e-commerce-site">GH</a></p>
         </div>
     </div>
     )
